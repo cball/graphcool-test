@@ -15,15 +15,30 @@
 
 
 # In the types.graphql you define your data schema
-types: ./api/types.graphql
+types: ./types.graphql
 
 
 functions:
   hello:
     handler:
-      code: api/hello.js
+      code: src/hello.js
     type: resolver
-    schema: api/hello.graphql
+    schema: src/hello.graphql
+
+  setBirthDate:
+    handler:
+      code: src/setBirthDate.js
+    type: operationBefore
+    operation: User.create
+
+  queryLegacySystem:
+    type: resolver
+    schema: src/queryLegacySystem.graphql
+    handler:
+      webhook:
+        url: https://baf7c6d8.ngrok.io 
+        headers:
+          Content-Type: application/json
 
 
 # Model/Relation permissions are used to limit the API access
