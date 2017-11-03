@@ -1,0 +1,28 @@
+{
+  "data": {
+    "name": "Emily"
+  },
+  "context": {
+    "request": {
+      "sourceIp": "172.18.0.1:36942",
+      "headers": {},
+      "httpMethod": "post"
+    },
+    "auth": null,
+    "sessionCache": {},
+    "environment": {},
+    "graphcool": {
+      "rootToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MDk2NTUwOTEsImlhdCI6MTUwOTY1NDc5MSwiY2xpZW50SWQiOiJfIiwicHJvamVjdElkIjoiY2o5aXdyYWg1MDAwNDAxNjh0amEwZ2Z5eCIsInBlcm1hbmVudEF1dGhUb2tlbklkIjoiY2o5aXhoZzBwMDAyYjAxNjgyMDNsdDNveSJ9.Q1p5Jn8mOlcDktPL5b_gMguCSe2s89ZEjaUGsPvhKGA",
+      "endpoints": {
+        "simple": "http://graphcool:60000/simple/v1/cj9iwrah500040168tja0gfyx",
+        "relay": "http://graphcool:60000/relay/v1/cj9iwrah500040168tja0gfyx",
+        "system": "http://graphcool:60000/system",
+        "subscriptions": "http://graphcool:60000/subscriptions/v1/cj9iwrah500040168tja0gfyx"
+      },
+      "projectId": "cj9iwrah500040168tja0gfyx",
+      "alias": null,
+      "pat": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MDk2NTUwOTEsImlhdCI6MTUwOTY1NDc5MSwiY2xpZW50SWQiOiJfIiwicHJvamVjdElkIjoiY2o5aXdyYWg1MDAwNDAxNjh0amEwZ2Z5eCIsInBlcm1hbmVudEF1dGhUb2tlbklkIjoiY2o5aXhoZzBwMDAyYjAxNjgyMDNsdDNveSJ9.Q1p5Jn8mOlcDktPL5b_gMguCSe2s89ZEjaUGsPvhKGA",
+      "serviceId": "cj9iwrah500040168tja0gfyx"
+    }
+  }
+}

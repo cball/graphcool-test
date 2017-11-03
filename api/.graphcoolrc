@@ -1,3 +1,4 @@
 targets:
   dev: local/cj9iwrah500040168tja0gfyx
   default: dev
+  staging: shared-us-west-2/cj9k708rccatz01240bdstrfc
